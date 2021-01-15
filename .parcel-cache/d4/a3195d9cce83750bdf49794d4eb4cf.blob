@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="006c6220c7360181eb6c4f2f7535e013" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="c68b365572156456a8a8a4bc2721bd5c" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>FindIt</title>
+    <style data-parcel-key="44a5d89f3943390ab55fabbd931f4236">
+        .show-data{
+         display: flex;
+         flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">FindIT
+                <a class="navbar-brand" href="#">
+                    <i class="fab fa-reddit-alien"></i>
+                </a>
+            </span>
+             <div class="d-flex">
+                <button class="btn  btn-danger me-2" type="submit" style="color:white;" id="logIN">Log In</button>
+                <button class="btn  btn-danger me-2" type="submit" style="color:white;" id="sign-up">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container p-5 bg-light" id="search-container">
+        <div id="search">
+
+
+            <h2>Search Reddit <i class="fab fa-reddit-alien"></i></h2>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="search-form" placeholder="Search">
+            </div>
+            <h5>Sort By :</h5>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="sortby" id="relevance" checked="" value="Relevance">
+                <label class="form-check-label" for="relevance">
+                    Relevance
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="sortby" id="latest" value="new">
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Latest
+                </label>
+            </div>
+            <h5>Limit</h5>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="limit" placeholder="Enter the number of articles to be shown e.g 25,100">
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-dark" type="button" id="search-btn">Search</button>
+
+            </div>
+        </div>
+        <div id="show-data" class="container p-2 show-data">
+            <!-- <div class="card" style="width: 500px;">
+                <div class="row no-gutters">
+                    <div class="col-sm-5">
+                        <img class="card-img" src="/images/defaultimg.png" alt="Suresh Dasari Card">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="card-body">
+                            <h5 class="card-title">Suresh Dasari</h5>
+                            <p class="card-text">Suresh Dasari is a founder and technical lead developer in tutlane.</p>
+                            <a href="#" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <article>
+                <div class="card" style="width: 18rem;">
+                    <img src="../Forkify/src/img/hamburger-1414422_1280.jpg" class="card-img-top ">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </article>
+            <article>
+                <div class="card" style="width: 18rem;">
+                    <img src="../Forkify/src/img/hamburger-1414422_1280.jpg" class="card-img-top ">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </article> -->
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="aacc51f88ef2a12e7865833c49546816"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="6167e1fa7c9b25dbbb6aeb337d5cd653" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

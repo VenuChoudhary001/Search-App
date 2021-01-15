@@ -1,0 +1,4 @@
+.show-data{
+         display: flex;
+         flex-wrap: wrap;
+        }
